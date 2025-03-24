@@ -1,4 +1,6 @@
 # spring-aop-example
+Reference:
+https://www.youtube.com/watch?v=POa6ZZKq79E&t=744s&ab_channel=TechnoTownTechie
 ![image](https://github.com/user-attachments/assets/7568e4a3-f6b0-4d08-a166-256616de79f9)
 
 First we need to add this spring aop dependancy:
@@ -97,8 +99,14 @@ Now if you want to use pointcut for a custom annotation:
 create a custom annotation:
 ![image](https://github.com/user-attachments/assets/bd71e1bd-cf44-4ee7-808e-956a8ddcdeda)
 ![image](https://github.com/user-attachments/assets/efb75ab4-6f63-439d-b9e6-77bd618cf254)
+let s add annotation of find by id of departement:
+![image](https://github.com/user-attachments/assets/d0a3bc5c-7506-4254-ab43-5a6cc72039fc)
+and let s add the annotation if our pointcut:
+![image](https://github.com/user-attachments/assets/c5ad9039-58b3-4c06-96dc-88520a7978e0)
 
-![image](https://github.com/user-attachments/assets/a51cb381-cd48-42e6-bd8d-4fe52035966f)
+lets restart the application and run postman:
+![image](https://github.com/user-attachments/assets/f39ad831-04ea-409d-8ad7-31cd547ff4a1)
 
-
+here we can see our aspect:
+![image](https://github.com/user-attachments/assets/350515e0-9c2f-4e1f-b3f3-e562a04ff4b1)
 
